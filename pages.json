@@ -1,0 +1,129 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "培优教育"
+			}
+		}, {
+			"path": "pages/recruit-plan/recruit-plan",
+			"style": {
+				"navigationBarTitleText":"招生课程"
+			}
+		}, {
+			"path": "pages/education/education",
+			"style": {
+				"navigationBarTitleText":"特色教育"
+			}
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText":"我的"
+			}
+		}
+	    ,{
+            "path" : "pages/school/school",
+            "style" : {
+				"navigationBarTitleText":"皇家族基地"
+			}
+        }
+        ,{
+            "path" : "pages/order/order",
+            "style" : {
+				"navigationBarTitleText":"我的订单"
+			}
+        }
+        ,{
+            "path" : "pages/order-detail/order-detail",
+            "style" : {
+				"navigationBarTitleText":"订单详情"
+			}
+        }
+        ,{
+            "path" : "pages/class-detail/class-detail",
+            "style" : {
+				"navigationBarTitleText":"课程详情"
+			}
+        }
+        ,{
+            "path" : "pages/settlement/settlement",
+            "style" : {
+				"navigationBarTitleText":"订单结算"
+			}
+        }
+        ,{
+            "path" : "pages/settlement-success/settlement-success",
+            "style" : {
+				"navigationBarTitleText":"提交成功"
+			}
+        }
+        ,{
+            "path" : "pages/query-result/query-result",
+            "style" : {
+				"navigationBarTitleText":"成绩查询"
+			}
+        }
+        ,{
+            "path" : "pages/news/news",
+            "style" : {
+				"navigationBarTitleText":"教育资讯"
+			}
+        }
+        ,{
+            "path" : "pages/news-detail/news-detail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/mock-examination/mock-examination",
+            "style" : {
+				"navigationBarTitleText":"模拟考试"
+			}
+        }
+        ,{
+            "path" : "pages/exam-detail/exam-detail",
+            "style" : {
+				"navigationBarTitleText":"开始答题"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "培优教育",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#666",
+		"selectedColor": "#6576ef",
+		"backgroundColor": "white",
+		"borderStyle": "white",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/img/home_icon.png",
+				"selectedIconPath": "static/img/home_icon_active.png"
+			},
+			{
+				"pagePath": "pages/education/education",
+				"text": "特色教育",
+				"iconPath": "static/img/teaching_home-icon.png",
+				"selectedIconPath": "static/img/teaching_home-icon-active.png"
+			},
+			{
+				"pagePath": "pages/recruit-plan/recruit-plan",
+				"text": "招生计划",
+				"iconPath": "static/img/plan_home-icon.png",
+				"selectedIconPath": "static/img/plan_home-icon-active.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/img/my_home-icon.png",
+				"selectedIconPath": "static/img/my_home-icon-active.png"
+			}
+		]
+	},
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	}
+}
